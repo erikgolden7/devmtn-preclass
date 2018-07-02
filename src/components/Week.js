@@ -32,8 +32,8 @@ export default class Week extends Component {
       date.add(1, 'd');
     }
     return (
-      <div className="week1" key={days[0].toString()}>
-        <span className="day1">{days}</span>
+      <div key={days[0].toString()}>
+        <span>{days}</span>
       </div>
     );
   }

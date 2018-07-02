@@ -87,7 +87,7 @@ export default class Calendar extends Component {
 
   renderMonthLabel() {
     return (
-      <span className="week">{this.state.month.format('MMMM, YYYY')}</span>
+      <span className="week1">{this.state.month.format('MMMM, YYYY')}</span>
     );
   }
 }

@@ -21,7 +21,6 @@ div.header {
 }
 
 i {
-  // padding: 20px;
   cursor: pointer;
 }
 
@@ -29,7 +28,7 @@ span {
   float: left;
   font-weight: bold;
   text-transform: uppercase;
-  text-align: center;
+  text-align: right;
   color: inherit;
 }
 
@@ -38,17 +37,35 @@ span {
   margin: auto;
 }
 
+.week1 {
+  width: auto;
+  margin: auto;
+}
+
 .day1 {
   width: 100%;
 }
 
 .day {
-  width: (814px/7);
+  width: ((828px - 78px)/7);
   height: 90px;
-  border: solid 1px black;
+  padding: 7px 10px 0 0;
   background: white;
   cursor: pointer;
   color: black;
+}
+
+.day:nth-child(1) {
+  border-left: solid black 1px;
+}
+
+.day:nth-child(n) {
+  border-left: solid black 1px;
+  border-bottom: solid black 1px;
+}
+
+.day:nth-child(7) {
+  border-right: solid black 1px;
 }
 
 .today {
