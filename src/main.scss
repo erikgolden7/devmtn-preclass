@@ -1,0 +1,65 @@
+.link {
+  color: black;
+  text-decoration: underline;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+div.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26px;
+  font-weight: bold;
+  width: 828px;
+  background: #2875c7;
+  height: 50px;
+  color: white;
+  margin: auto;
+}
+
+i {
+  // padding: 20px;
+  cursor: pointer;
+}
+
+span {
+  float: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: inherit;
+}
+
+.week {
+  width: 828px;
+  margin: auto;
+}
+
+.day1 {
+  width: 100%;
+}
+
+.day {
+  width: (814px/7);
+  height: 90px;
+  border: solid 1px black;
+  background: white;
+  cursor: pointer;
+  color: black;
+}
+
+.today {
+  background: #e3f2ff;
+}
+
+.different-month {
+  color: #c0c0c0;
+}
+
+.selected {
+  background: rgba(75, 75, 245, 0.692);
+  color: white;
+}

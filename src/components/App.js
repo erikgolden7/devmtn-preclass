@@ -3,6 +3,7 @@ import Home from './Home';
 import Calendar from './Calendar';
 import DayView from './DayView';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import '../main.css';
 
 export default class App extends Component {
   render() {
